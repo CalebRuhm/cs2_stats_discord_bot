@@ -93,3 +93,5 @@ node index.js
 > You may not claim this as your own! The original source was created by [Caleb Ruhm](https://github.com/CalebRuhm)
 
 > If you like this repository, feel free to leave a star ⭐ to motivate me!
+
+> Note, this bot will run so long as your local machine is running the script. If you want this bot to work 24/7, youll have to setup / run on a server.
