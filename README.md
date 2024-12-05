@@ -30,13 +30,13 @@ cd cs2_stats_discord_bot/
 npm install
 ```
 
-#### To start your bot
+#### To start your bot (Don't run untill tokens have been added to config.json or bot will fail, see steps below)
 
 ```js
 node index.js
 ```
 
-### 🤖 Discord Bot Setup
+## 🤖 Discord Bot Setup
 
 - Go to the [Discord Developer Portal](https://discord.com/developers/applications)
 - Click "**New Application**" and give your application a name
@@ -46,21 +46,21 @@ node index.js
 - Under "**Bot Permissions**", select the permissions your bot needs (at minimum: Read Messages/View Channels, Send Messages)
 - Copy the generated OAuth2 URL and use it to invite the bot to your server
 
-### 🔑 Discord Token Setup
+## 🔑 Discord Token Setup
 
 - Go back to [Discord Developer Portal](https://discord.com/developers/applications)
 - Go to the "**Bot**" tab
 - Click "**Reset Token**" and copy the new token
 - Paste token into `config.json` where it says `"DISCORD_TOKEN"`
 
-### 🎮 Steam API Key Setup
+## 🎮 Steam API Key Setup
 
 - Go to the [Steam Web API](https://steamcommunity.com/dev/apikey)
 - Enter a domain name for your application (Just enter "`localhost`" or "`DiscordBot`" for now)
 - Confirm on mobile device if you have one
 - Copy the key and paste it into `config.json` where it says `"STEAM_API_KEY"`
 
-### 🎯 Steam ID
+## 🎯 Steam ID
 
 #### Find your Steam ID :
 
@@ -75,14 +75,14 @@ node index.js
 - Visit [SteamID.io](https://steamid.io/) and enter your profile URL
 - Copy your Steam64 ID (also called Steam ID)
 
-### 💬 Bot Commands
+## 💬 Bot Commands
 
 - `!help` - Bot help / information
 - `!commands` - View bot commands
 - `!cs2stats <steam_id>` - View CS2 stats for a given Steam ID (can also use Steam profile URL)
 - `!cs2stats 76561198012345678` - Example command
 
-### ❗ Troubleshooting
+## ❗ Troubleshooting
 
 - If you're having trouble with the bot, make sure it has permission to send messages in the channel it's in
 - To view a users stats, their steam profile must be [visible](https://help.steampowered.com/en/faqs/view/588C-C67D-0251-C276) and their game details must be [public](https://help.steampowered.com/en/faqs/view/1150-C06F-4D62-4966)
