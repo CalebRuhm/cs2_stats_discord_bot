@@ -18,6 +18,12 @@ The bot supports various Steam URL formats and provides detailed statistics incl
 git clone https://github.com/CalebRuhm/cs2_stats_discord_bot.git
 ```
 
+#### Navigate to cs2_stats_discord_bot/
+
+```bash
+cd cs2_stats_discord_bot/
+```
+
 #### Install dependencies
 
 ```bash
