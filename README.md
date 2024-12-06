@@ -52,6 +52,7 @@ node index.js
 - Go to the "**Bot**" tab
 - Click "**Reset Token**" and copy the new token
 - Paste token into `config.json` where it says `"DISCORD_TOKEN"`
+- Back under the "**Bot**" tab, give your bot privilege to "**Message Content Intent**"
 
 ## 🎮 Steam API Key Setup
 
